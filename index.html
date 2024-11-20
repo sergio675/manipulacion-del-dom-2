@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulacion del DOM</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   
+    <section id="cont-general">
+        <div id="panel_lateral"class="">
+            <nav>
+               <button>Menu</button>
+               <button>inicio</button>
+               <button>productos</button>
+               <button>servicios</button>
+               <button>contacto</button>
+            </nav>
+        </div>
+
+        </div>
+        <div class="left">
+            <h2>INTERACCIONES</h2>
+            <button onclick="circulo()">CIRCULO</button>
+            <button onclick="rombo()">ROMBO</button>
+            <button onclick="color()">FONDO COLOR</button>
+            <button onclick="imagen()">FONDO IMAGEN</button>
+            <button onclick="moverTop()">TOP</button>
+            <button onclick="moverLeft()">LEFT</button>
+            <button onclick="moverBotton()">BOTTON</button>
+            <button onclick="moverRight()">RIGHT</button>
+            <button onclick="moverDiagonal()">DIAGONAL</button>
+            <button onclick="animacion()">ANIMATION</button>
+            <button onclick="fondoDegradado()">FONDO DEGRADADO</button>
+            <button onclick="estrella()">ESTRELLA</button>
+            <button onclick="panel_lateral()">PANEL lATERAL</button>
+            <button onclick="panel_superior()">PANEL SUPERIOR</button>
+
+            <div id="panel_superior" class="">
+                <h2>La poderosa MT09</h2>
+                <button id="closeBtn" class="close-btn">&times;</button>
+                <video controls width="800">
+                    <source src="img/yamaha mt 09 sonido sc project.mp4" type="video/mp4">
+                    Tu navegador no soporta la etiqueta de video.
+                </video>
+                
+                
+
+            </div>
+           
+        </div>
+
+        <div class="right">
+            <h2 id="titulo">FIGURA</h2>
+
+            <div id="figura"></div>
+
+        </div>
+    </section>
+    
+    <script src="js/main.js"></script>
+</body>
+</html>
